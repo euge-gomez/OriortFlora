@@ -1,3 +1,20 @@
+const typed = new Typed('.typed', {
+  strings: ['<i class="cursosTitular">Cursos Online</i>', '<i class="cursosTitular">Cursos Regulares</i>', '<i class="cursosTitular">Cursos Intensivos</i>'],
+  stringsElement: '#cadenas-texto', 
+	typeSpeed: 50, 
+	startDelay: 300,
+	backSpeed: 50, 
+	smartBackspace: true,
+	shuffle: false,
+	backDelay: 1500,
+	loop: true, 
+	loopCount: false,
+	showCursor: true,
+	cursorChar: '|', 
+	contentType: 'html',
+})
+
+
 // JS (babel) de timeline
 /* (function() {
 

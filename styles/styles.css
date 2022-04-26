@@ -63,6 +63,26 @@ a:hover{
   font-style: italic;
 }
 
+/* MAIN */
+
+/* Efecto del titulo typed  */
+.cursosTitular {
+  font-weight: bold;
+  font-style: normal;
+  color: #ff0000;
+}
+
+.titular {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+
+
+
+
+/* -------------------------------------------------------- */
+
 /* Css de la timeline >>>>>>>>>>>>>>>>
 *,
 *::before,
