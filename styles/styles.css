@@ -1,3 +1,37 @@
+:root{
+  --dark-color: #343A40;
+  --gray-color: #DEE2E6;
+  --white-color: #f2f2f2;
+}
+
+/* Header */
+
+header {
+  background: var(--dark-color);
+}
+
+.headerUp,
+.headerDown {
+  max-width: 1000px;
+}
+
+.logoContainer {
+  width: 100px
+}
+
+.logoContainer img {
+  max-width: 100%;
+}
+
+.navbar {
+  color: white;
+}
+
+.nav-item {
+  margin-right: 40px;
+  margin-left: 40px;
+}
+
 /* Css de la timeline >>>>>>>>>>>>>>>>
 *,
 *::before,
@@ -22,7 +56,7 @@ body {
 
 
  .section SECTION
-–––––––––––––––––––––––––––––––––––––––––––––––––– 
+––––––––––––––––––––––––––––––––––––––––––––––––––
 
 .section {
   background: #F45B69;
@@ -46,7 +80,7 @@ body {
 
 
 TIMELINE
-–––––––––––––––––––––––––––––––––––––––––––––––––– 
+––––––––––––––––––––––––––––––––––––––––––––––––––
 
 .timeline {
   white-space: nowrap;
@@ -141,7 +175,7 @@ TIMELINE
 
 
  TIMELINE ARROWS
-–––––––––––––––––––––––––––––––––––––––––––––––––– 
+––––––––––––––––––––––––––––––––––––––––––––––––––
 
 .timeline .arrows {
   display: flex;
@@ -164,46 +198,46 @@ TIMELINE
 
 
 GENERAL MEDIA QUERIES
-–––––––––––––––––––––––––––––––––––––––––––––––––– 
+––––––––––––––––––––––––––––––––––––––––––––––––––
 @media screen and (max-width: 599px) {
   .timeline ol,
   .timeline ol li {
-    width: auto; 
+    width: auto;
   }
-  
+
   .timeline ol {
     padding: 0;
     transform: none !important;
   }
-  
+
   .timeline ol li {
     display: block;
     height: auto;
     background: transparent;
   }
-  
+
   .timeline ol li:first-child {
     margin-top: 25px;
   }
-  
+
   .timeline ol li:not(:first-child) {
     margin-left: auto;
   }
-  
+
   .timeline ol li div {
     width: 94%;
     height: auto !important;
     margin: 0 auto 25px;
   }
-  
+
   .timeline ol li div {
     position: static;
   }
-  
+
   .timeline ol li:nth-child(odd) div {
     transform: none;
   }
-  
+
   .timeline ol li:nth-child(odd) div::before,
   .timeline ol li:nth-child(even) div::before {
     left: 50%;
@@ -213,7 +247,7 @@ GENERAL MEDIA QUERIES
     border-left: 1px solid white;
     height: 25px;
   }
-  
+
   .timeline ol li:last-child,
   .timeline ol li:nth-last-child(2) div::before,
   .timeline ol li:not(:last-child)::after,
