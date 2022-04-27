@@ -6,6 +6,12 @@
   --whatsapp-color-figma: #25D366;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+body{
+  font-family: 'Roboto', sans-serif;
+}
+
 /* Header */
 
 header {
@@ -56,6 +62,78 @@ a:hover{
   color: var(--white-color);
   font-style: italic;
 }
+
+/* MAIN */
+
+/* Efecto del titulo typed  */
+.cursosTitular {
+  font-weight: bold;
+  font-style: normal;
+  color: #ff0000;
+}
+
+.titular {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.nmv {
+  border-radius: 25px;
+  max-width: 600px;
+  box-shadow: 10px 10px 5px black;
+}
+
+.nmv .nmvTab{
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 25px 25px 0 0;
+  width: 33%;
+  font-weight: bold;
+  text-align: center;
+  background-color: var(--white-color);
+}
+
+.nmv .nmvTabNColor {
+  background-color: #ff0000;
+  color: var(--white-color);
+}
+
+.nmv .nmvTabMColor {
+  background-color: #000aff;
+  color: var(--white-color);
+}
+
+.nmv .nmvTabVColor {
+  background-color: #ff7817;
+  color: var(--white-color);
+}
+
+.nvmText{ 
+  background-color: var(--white-color);
+  padding: 30px;
+  border-radius: 0 0 25px 25px;
+}
+
+
+/* Footer */
+.footer {
+  background-color: #DEE2E6;
+}
+
+.pictureContainer {
+  width: 150px;
+}
+
+.rrssFooter {
+  list-style: none;
+  font-size: 28px;
+}
+
+
+
+
+
+/* -------------------------------------------------------- */
 
 /* Css de la timeline >>>>>>>>>>>>>>>>
 *,
