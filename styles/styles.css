@@ -60,7 +60,6 @@ a {
 }
 a:hover{
   color: var(--white-color);
-  font-style: italic;
 }
 
 /* MAIN */
