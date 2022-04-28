@@ -114,6 +114,10 @@ a:hover{
   border-radius: 0 0 25px 25px;
 }
 
+.video {
+  max-width: 800px;
+}
+
 
 /* Footer */
 .footer {
