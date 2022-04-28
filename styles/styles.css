@@ -59,6 +59,7 @@ a {
   color: var(--white-color);
 }
 a:hover{
+  text-decoration: underline;
   color: var(--white-color);
 }
 
@@ -120,12 +121,12 @@ a:hover{
 }
 
 .pictureContainer {
-  width: 150px;
+  max-width: 150px;
 }
 
 .rrssFooter {
   list-style: none;
-  font-size: 28px;
+  font-size: 1.75rem;
 }
 
 
