@@ -154,6 +154,47 @@ a:hover{
   background-color: rgba(0, 10, 255, 0.7);
   color: var(--white-color);
 }
+/* Cursos */ 
+
+/* Cursos Carrusel */
+.card {
+  border-radius: 20px;
+  box-shadow: 10px 5px 5px var(--dark-color);
+  width: 18rem;
+  height: 30rem;
+  padding: 5px;
+  background-color: var(--gray-color);
+  text-align: center;
+}
+.cardTestim {
+  border-radius: 20px;
+  box-shadow: 10px 5px 5px var(--dark-color);
+  width: 18rem;
+  height: 18rem;
+  padding: 5px;
+  background-color: var(--gray-color);
+  text-align: center;
+  align-content: center;
+}
+.btn-primary {
+  background-color: #000aff;
+  border:#000aff 2px solid;
+  border-radius: 20px;
+}
+.carousel-control-prev-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23343A40' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+}
+
+.carousel-control-next-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23343A40' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+}
+/* Card acortada */
+.hide {
+  display: none;
+}
+.show {
+  display: block;
+}
 
 
 
@@ -172,19 +213,7 @@ a:hover{
 }
 
 
-
-
-
-/* -------------------------------------------------------- */
-
-/* Css de la timeline >>>>>>>>>>>>>>>>
-*,
-*::before,
-*::after {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
+/* Css de la timeline */
 
 button {
   background: transparent;
@@ -193,26 +222,11 @@ button {
   outline: none;
 }
 
-body {
-  font: normal 16px/1.5 "Helvetica Neue", sans-serif;
-  background: #456990;
-  color: #fff;
-}
-
-
- .section SECTION
-––––––––––––––––––––––––––––––––––––––––––––––––––
+ /* .section SECTION */
 
 .section {
-  background: #F45B69;
+  background: var(--gray-color);
   padding: 50px 0;
-}
-
-.section .container {
-  width: 90%;
-  max-width: 1200px;
-  margin: 0 auto;
-  text-align: center;
 }
 
 .section h1 {
@@ -224,8 +238,7 @@ body {
 }
 
 
-TIMELINE
-––––––––––––––––––––––––––––––––––––––––––––––––––
+/* TIMELINE */
 
 .timeline {
   white-space: nowrap;
@@ -245,7 +258,7 @@ TIMELINE
   list-style-type: none;
   width: 160px;
   height: 3px;
-  background: #fff;
+  background: var(--dark-color);
 }
 
 .timeline ol li:last-child {
@@ -266,7 +279,7 @@ TIMELINE
   height: 12px;
   transform: translateY(-50%);
   border-radius: 50%;
-  background: #F45B69;
+  background: var(--gray-color);
 }
 
 .timeline ol li div {
@@ -319,13 +332,13 @@ TIMELINE
 }
 
 
- TIMELINE ARROWS
-––––––––––––––––––––––––––––––––––––––––––––––––––
+ /* TIMELINE ARROWS */
 
 .timeline .arrows {
   display: flex;
   justify-content: center;
   margin-bottom: 20px;
+  
 }
 
 .timeline .arrows .arrow__prev {
@@ -342,8 +355,8 @@ TIMELINE
 }
 
 
-GENERAL MEDIA QUERIES
-––––––––––––––––––––––––––––––––––––––––––––––––––
+/*GENERAL MEDIA QUERIES*/
+
 @media screen and (max-width: 599px) {
   .timeline ol,
   .timeline ol li {
@@ -400,4 +413,3 @@ GENERAL MEDIA QUERIES
     display: none;
   }
 }
-*/
