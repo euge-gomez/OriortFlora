@@ -10,6 +10,7 @@
     integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
   <!--Nuestro Css-->
   <link rel="stylesheet" href="../styles/styles.css">
+  <link rel="stylesheet" href="../styles/formStyles.css">
   <title>Contacto</title>
 </head>
 
@@ -74,29 +75,25 @@
     <h1 class="text-center">Contacto</h1>
     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugiat officiis nemo nesciunt, quos ipsam vel ad vitae
       modi id dolor. Possimus impedit ad doloribus. Illo esse praesentium corrupti quo aut?</p>
-    <form class="formularioContacto container my-5" action="../php/formulario.php" method="POST">
+    <form class="formularioContacto container my-5 p-4" action="../php/formulario.php" method="POST">
       <div class="row">
-        <div class="mb-3 col-4">
-          <label for="exampleFormControlInput1" class="form-label">Nombre*</label>
-          <input type="name" class="form-control" id="name" name="name" placeholder="Ingrese su nombre" required>
+        <div class="mb-5 col-md-4">
+          <input type="name" class="form-control formInput" id="name" name="name" placeholder="Ingrese su nombre*" required>
         </div>
-        <div class="mb-3 col-4">
-          <label for="exampleFormControlInput1" class="form-label">Email address*</label>
-          <input type="email" class="form-control" id="email" name="email" placeholder="name@example.com" required>
+        <div class="mb-5 col-md-4">
+          <input type="email" class="form-control formInput" id="email" name="email" placeholder="name@example.com*" required>
         </div>
-        <div class="mb-3 col-4">
-          <label for="exampleFormControlInput1" class="form-label">Telefono*</label>
-          <input type="phone" class="form-control" id="phone" name="phone" placeholder="name@example.com" required>
+        <div class="mb-5 col-md-4">
+          <input type="phone" class="form-control formInput" id="phone" name="phone" placeholder="Teléfono* (+54 11 1111 2222)" required>
         </div>
       </div>
       <div class="row">
-        <div class="mb-3 col-3">
-          <label for="exampleFormControlInput1" class="form-label">País de Residencia*</label>
-          <input type="country" class="form-control" id="country" name="country" placeholder="Nacionalidad" required>
+        <div class="mb-5 col-md-4">
+          <input type="country" class="form-control formInput" id="country" name="country" placeholder="Nacionalidad*" required>
         </div>
-        <div class="col-3 mb-3">
-          <select class="form-select" aria-label="Default select example" name="cursoType">
-            <option selected>Tipo de Curso</option>
+        <div class="col-md-4 mb-5">
+          <select class="form-select formInput" aria-label="Default select example" name="cursoType">
+            <option selected >Tipo de Curso</option>
             <option value="armenioOriental">Armenio Oriental</option>
             <option value="armenioOccidental">Armenio Occidental</option>
             <option value="conversacion">Conversación</option>
@@ -105,21 +102,19 @@
         </div>
       </div>
       <div class="row">
-        <div class="col-8 mb-3">
-          <h6>¿Reconoces todas las letras del alfabeto armenio?</h6>
+        <div class="col-md-5">
+          <p>¿Reconoces todas las letras del alfabeto armenio?</p>
         </div>
-        <div class="col-2">
-          <label>Sí <input type="radio" id="cbox1" name="alfabeto" value="Sí"></label>
-        </div><br>
-        <div class="col-2">No <input type="radio" id="cbox2" name="alfabeto" value="No"><label for="cbox2"></label>
+        <div class="col-md-3 mb-5">
+          <label class="mx-3">Sí <input type="radio" id="cbox1" name="alfabeto" value="Sí"></label>
+          <label class="mx-3">No <input type="radio" id="cbox2" name="alfabeto" value="No"></label>
         </div>
       </div>
-      <div class="mb-3">
-        <label for="exampleFormControlTextarea1" class="form-label">Cometario</label>
-        <textarea class="form-control" name="msg" id="comment" rows="3"></textarea>
+      <div class="mb-5">
+        <textarea class="form-control msgForm mx-auto" name="msg" placeholder="Deje su mensaje mensaje*" id="comment" required></textarea>
       </div>
-      <div>
-        <input type="submit" value="Enviar">
+      <div class="text-center">
+        <input type="submit" class="btn btnEnviar p-1" value="Enviar">
       </div>
     </form>
   </main>
