@@ -119,6 +119,43 @@ a:hover{
   max-width: 800px;
 }
 
+/* Formulario */
+
+.formularioContacto {
+  background-color: rgba(222, 226, 230, .4);
+  border-radius: 25px;
+}
+
+.formInput {
+  border-radius: 0;
+  border: none;
+  background-color: rgba(255, 255, 255, .1);
+  border-bottom: 2px solid var(--dark-color);
+}
+
+.msgForm{
+  border-radius: 10px;
+  resize: none;
+  max-width: 800px;
+  height: 125px;
+}
+
+.btnEnviar {
+  border: none;
+  font-size: 1.25rem;
+  border-radius: 25px;
+  min-width: 200px;
+  font-weight: bold;
+  color: var(--white-color);
+  background-color: #000aff;
+}
+
+.btnEnviar:hover {
+  background-color: rgba(0, 10, 255, 0.7);
+  color: var(--white-color);
+}
+
+
 
 /* Footer */
 .footer {
