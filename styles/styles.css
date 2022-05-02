@@ -40,7 +40,9 @@ header {
   margin-right: 40px;
   margin-left: 40px;
 }
-
+span.d-none {
+  font-size: 16px;
+}
 /* Botón de Whatsapp */
 .btnWa {
   background-color: var(--whatsapp-color-figma);
@@ -81,7 +83,7 @@ a:hover{
 .nmv {
   border-radius: 25px;
   max-width: 600px;
-  box-shadow: 10px 10px 5px black;
+  box-shadow: 10px 10px 5px var(--dark-color);
 }
 
 .nmv .nmvTab{
