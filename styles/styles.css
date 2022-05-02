@@ -6,10 +6,26 @@
   --whatsapp-color-figma: #25D366;
 }
 
+/* Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@font-face {
+  font-family: 'Cera Pro';
+  src: url('./font/CeraProMedium.otf') format('truetype');
+  font-style: normal;
+  font-weight: normal;
+}
+@font-face {
+  font-family: 'Cera Pro';
+  src: url('./font/CeraProBold.otf') format('truetype');
+  font-style: normal;
+  font-weight: bold;
+}
 
+
+
+/* General */
 body{
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Cera Pro', sans-serif;
   user-select: none;
 }
 
