@@ -59,6 +59,7 @@ header {
 span.d-none {
   font-size: 16px;
 }
+
 /* Botón de Whatsapp */
 .btnWa {
   background-color: var(--whatsapp-color-figma);
@@ -187,12 +188,11 @@ a:hover{
 .cardTestim {
   border-radius: 20px;
   box-shadow: 10px 5px 5px var(--dark-color);
-  width: 18rem;
+  width: 40%;
   height: 18rem;
   padding: 5px;
   background-color: var(--gray-color);
   text-align: center;
-  align-content: center;
 }
 .btn-primary {
   background-color: #000aff;
