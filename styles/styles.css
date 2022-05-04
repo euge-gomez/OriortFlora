@@ -313,6 +313,18 @@ button {
   background: white;
 }
 
+.burbujaSup, .burbujaSub {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  border-radius: 25px 25px 25px 0;
+}
+
+.burbujaSub {
+  border-radius: 0px 25px 25px 25px;
+}
+
 .timeline ol li div::before {
   content: '';
   position: absolute;
