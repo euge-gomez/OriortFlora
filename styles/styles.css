@@ -64,7 +64,7 @@ span.d-none {
 .btnWa {
   background-color: var(--whatsapp-color-figma);
   position: fixed;
-  top: 172px;
+  bottom: 20px;
   right: 20px;
   border: var(--whatsapp-color-figma) solid 2px;
   border-radius: 20px;
