@@ -86,10 +86,20 @@ a:hover{
 /* MAIN */
 
 /* Efecto del titulo typed  */
-.cursosTitular {
+.cursosTitularRed {
   font-weight: bold;
   font-style: normal;
   color: #ff0000;
+}
+.cursosTitularBlue {
+  font-weight: bold;
+  font-style: normal;
+  color: #000aff;
+}
+.cursosTitularOrange {
+  font-weight: bold;
+  font-style: normal;
+  color: #ff7817;
 }
 
 .titular {
@@ -250,6 +260,7 @@ button {
 /* TIMELINE */
 
 .timeline {
+  background-color: rgba(222, 226, 230, .8);
   white-space: nowrap;
   overflow-x: hidden;
 }
