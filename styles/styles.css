@@ -64,15 +64,16 @@ span.d-none {
 .btnWa {
   background-color: var(--whatsapp-color-figma);
   position: fixed;
-  top: 172px;
+  bottom: 20px;
   right: 20px;
   border: var(--whatsapp-color-figma) solid 2px;
-  border-radius: 20px;
-  width: 60px;
-  height: 60px;
+  border-radius: 25px;
+  width: 50px;
+  height: 50px;
   text-align: center;
-  font-size: 40px;
-  box-shadow: 10px 5px 5px var(--dark-color)
+  font-size: 2rem;
+  box-shadow: 10px 5px 5px var(--dark-color);
+  z-index: 1;
 }
 a {
   text-decoration: none;
@@ -86,10 +87,20 @@ a:hover{
 /* MAIN */
 
 /* Efecto del titulo typed  */
-.cursosTitular {
+.cursosTitularRed {
   font-weight: bold;
   font-style: normal;
   color: #ff0000;
+}
+.cursosTitularBlue {
+  font-weight: bold;
+  font-style: normal;
+  color: #000aff;
+}
+.cursosTitularOrange {
+  font-weight: bold;
+  font-style: normal;
+  color: #ff7817;
 }
 
 .titular {
@@ -250,6 +261,7 @@ button {
 /* TIMELINE */
 
 .timeline {
+  background-color: rgba(222, 226, 230, .8);
   white-space: nowrap;
   overflow-x: hidden;
 }
@@ -300,6 +312,18 @@ button {
   white-space: normal;
   color: black;
   background: white;
+}
+
+.burbujaSup, .burbujaSub {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  border-radius: 25px 25px 25px 0;
+}
+
+.burbujaSub {
+  border-radius: 0px 25px 25px 25px;
 }
 
 .timeline ol li div::before {
