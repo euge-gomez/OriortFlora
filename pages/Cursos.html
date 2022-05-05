@@ -16,7 +16,7 @@
 <body>
   <header>
     <div
-      class="headerUp text-white mx-auto d-flex justify-content-around justify-content-md-between align-items-center py-2">
+      class="headerUp text-white mx-auto d-flex justify-content-around py-2 justify-content-md-between align-items-center py-2">
       <div class="logoContainer">
         <a href="../index.html">
           <img src="../img/Logo.svg" class="img-fluid border border-2 border-dark rounded-circle" alt="logo">
@@ -65,8 +65,8 @@
     </div>
     <div class="btnWa d-none d-md-block">
       <a target="_blank"
-            href="https://api.whatsapp.com/send?phone=005491166410806&text=Hola! Quiero coordinar mi reunión con Flora!"><i
-              class="fa-brands fa-whatsapp d-inline-block mx-1"></i></a>
+        href="https://api.whatsapp.com/send?phone=005491166410806&text=Hola! Quiero coordinar mi reunión con Flora!"><i
+          class="fa-brands fa-whatsapp d-inline-block mx-1"></i></a>
     </div>
   </header>
   <main class=" container mx-auto my-5">
@@ -82,10 +82,10 @@
       <h3 class="titular col-12 text-center m-3">Cursos</h3>
     </div>
     <!--Carrousel de Cards para los cursos-->
-    <div id="cursosCarrusel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="false">
+    <div id="cursosCarrusel" class="carousel slide d-none d-md-block" data-bs-ride="carousel" data-bs-interval="false">
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <div class="d-flex justify-content-around">
+          <div class="d-flex justify-content-around py-2">
             <div class="card">
               <div class="card-body">
                 <h5 class="card-title">Curso de Armenio Occidental Nivel 1</h5>
@@ -129,7 +129,7 @@
           </div>
         </div>
         <div class="carousel-item">
-          <div class="d-flex justify-content-around">
+          <div class="d-flex justify-content-around py-2">
             <div class="card">
               <div class="card-body">
                 <h5 class="card-title">Curso de Armenio Occidental Nivel 4</h5>
@@ -170,7 +170,7 @@
           </div>
         </div>
         <div class="carousel-item">
-          <div class="d-flex justify-content-around">
+          <div class="d-flex justify-content-around py-2">
             <div class="card">
               <div class="card-body">
                 <h5 class="card-title">Curso de Armenio Oriental Nivel 1</h5>
@@ -223,15 +223,163 @@
         <span class="visually-hidden">Next</span>
       </button>
     </div>
+    <div id="cursosCarruselMobile" class="carousel slide d-block d-md-none" data-bs-ride="carousel"
+      data-bs-interval="false">
+      <div class="carousel-inner">
+        <div class="carousel-item py-2 active">
+          <div class="card mx-auto">
+            <div class="card-body">
+              <h5 class="card-title">Curso de Armenio Occidental Nivel 1</h5>
+              <h6 class="card-subtitle mb-2 text-muted"><strong>Fechas:</strong> Enero (intensivo) / Marzo / Agosto
+              </h6>
+              <p class="card-text"> <strong>Expectativa:</strong> Es capaz de comprender y utilizar expresiones
+                cotidianas de uso muy frecuente. Puede presentarse a sí mismo y a otros, pedir y dar información
+                personal básica.</p>
+              <button class="btn-primary"><a
+                  href="https://api.whatsapp.com/send?phone=005491166410806?text=Hola! Quiero inscribirme en en Nivel 1 de Armenio Occidental!">Inscribirme</a></button>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item py-2">
+          <div class="card mx-auto">
+            <div class="card-body">
+              <h5 class="card-title">Curso de Armenio Occidental Nivel 2</h5>
+              <h6 class="card-subtitle mb-2 text-muted"><strong>Fechas:</strong> Enero (intensivo) / Marzo / Agosto
+              </h6>
+              <p class="card-text"><strong>Expectativa:</strong> Es capaz de describir cuestiones relacionadas con su
+                rutina, personas y su casa. Conoce los verbos de uso cotidiano y puede aplicarlos a situaciones
+                cotidianas. Comprende frases y el vocabulario más habitual sobre temas de interés personal:
+                información
+                personal y familiar muy básica, compras, lugar de residencia, empleo. </p>
+              <button class="btn-primary"><a
+                  href="https://api.whatsapp.com/send?phone=005491166410806?text=Hola! Quiero inscribirme en en Nivel 2 de Armenio Occidental!">Inscribirme
+                </a></button>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item py-2">
+          <div class="card mx-auto">
+            <div class="card-body">
+              <h5 class="card-title">Curso de Armenio Occidental Nivel 3</h5>
+              <h6 class="card-subtitle mb-2 text-muted"><strong>Fechas:</strong> Marzo / Agosto</h6>
+              <p class="card-text"><strong>Expectativa:</strong> Es capaz de dar instrucciones en forma simple
+                Participar en situaciones comunicativas sencillas. Utiliza expresiones y frases sencillas para
+                describir
+                el lugar donde vive. Puede completar formularios con datos personales.</p>
+              <button class="btn-primary"><a
+                  href="https://api.whatsapp.com/send?phone=005491166410806?text=Hola! Quiero inscribirme en en Nivel 3 de Armenio Occidental!">Inscribirme
+                </a></button>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item py-2">
+          <div class="card mx-auto">
+            <div class="card-body">
+              <h5 class="card-title">Curso de Armenio Occidental Nivel 4</h5>
+              <h6 class="card-subtitle mb-2 text-muted"><strong>Fechas:</strong> Marzo / Agosto</h6>
+              <p class="card-text"><strong>Expectativa:</strong> Es capaz de comunicarse en cuestiones relacionadas
+                con
+                sus necesidades inmediatas. Sabe expresarse sobre tareas simples y cotidianas. Sabe utilizar varios
+                tiempos verbales y declinaciones irregulares. <span class="hide" id="hideText"> Comprende las ideas
+                  principales cuando el discurso es claro y normal y se tratan asuntos cotidianos que tienen lugar en
+                  el
+                  trabajo, en la escuela, durante el tiempo de ocio, etc. Comprende las ideas principales de muchos
+                  programas de radio o televisión que tratan temas actuales o asuntos de interés personal o
+                  profesional,
+                  cuando la articulación es relativamente lenta y clara.</span></p><button class="readMore_btn"
+                id="hideText_btn">Leer más</button>
+              <button class="btn-primary"><a
+                  href="https://api.whatsapp.com/send?phone=005491166410806?text=Hola! Quiero inscribirme en en Nivel 4 de Armenio Occidental!">Inscribirme
+                </a></button>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item py-2">
+          <div class="card mx-auto">
+            <div class="card-body">
+              <h5 class="card-title">Curso de Armenio Occidental Nivel 5</h5>
+              <h6 class="card-subtitle mb-2 text-muted"><strong>Fechas:</strong> Marzo / Agosto</h6>
+              <p class="card-text"><strong>Expectativa:</strong>Se desenvuelve en casi todas las situaciones que
+                traten
+                temas cotidianos de interés personal o que sean pertinentes para la vida diaria: familia, aficiones,
+                trabajo, viajes, solicitar una cita y acontecimientos actuales. Es capaz de escribir textos sencillos
+                y
+                bien enlazados con el fin de describir experiencias y hechos, deseos y sueños, esperanzas y
+                ambiciones.
+              </p>
+              <button class="btn-primary"><a
+                  href="https://api.whatsapp.com/send?phone=005491166410806?text=Hola! Quiero inscribirme en en Nivel 5 de Armenio Occidental!">Inscribirme
+                </a></button>
+            </div>
+          </div>
+
+        </div>
+        <div class="carousel-item py-2">
+          <div class="card mx-auto">
+            <div class="card-body">
+              <h5 class="card-title">Curso de Armenio Oriental Nivel 1</h5>
+              <h6 class="card-subtitle mb-2 text-muted"><strong>Fechas:</strong>Enero (intensivo) / Marzo / Agosto
+              </h6>
+              <p class="card-text"><strong>Expectativa: </strong> Es capaz de comprender y utilizar expresiones
+                cotidianas de uso muy frecuente. Puede presentarse a sí mismo y a otros, pedir y dar información
+                personal básica. </p>
+              <button class="btn-primary"><a
+                  href="https://api.whatsapp.com/send?phone=005491166410806?text=Hola! Quiero inscribirme en en Nivel 1 de Armenio Oriental!">Inscribirme
+                </a></button>
+            </div>
+          </div>
+
+        </div>
+        <div class="carousel-item py-2">
+          <div class="card mx-auto">
+            <div class="card-body">
+              <h5 class="card-title">Curso de Armenio Oriental Nivel 2</h5>
+              <h6 class="card-subtitle mb-2 text-muted"><strong>Fechas:</strong>Marzo / Agosto</h6>
+              <p class="card-text"><strong>Expectativa:</strong> Es capaz de describir cuestiones relacionadas con su
+                rutina, personas y su casa. Conoce los verbos de uso cotidiano y puede aplicarlos a situaciones
+                cotidianas. Comprende frases y el vocabulario más habitual sobre temas de interés personal:
+                información
+                personal y familiar muy básica, compras, lugar de residencia, empleo.</p>
+              <button class="btn-primary"><a
+                  href="https://api.whatsapp.com/send?phone=005491166410806?text=Hola! Quiero inscribirme en en Nivel 2 de Armenio Oriental!">Inscribirme
+                </a></button>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item py-2">
+          <div class="card mx-auto">
+            <div class="card-body">
+              <h5 class="card-title">Curso de Armenio Oriental Nivel 3</h5>
+              <h6 class="card-subtitle mb-2 text-muted"><strong>Fechas:</strong>Marzo / Agosto</h6>
+              <p class="card-text"><strong>Expectativa:</strong> Es capaz de dar instrucciones en forma simple
+                Participar en situaciones comunicativas sencillas. Utiliza expresiones y frases sencillas para
+                describir
+                el lugar donde vive. Puede completar formularios con datos personales. </p>
+              <button class="btn-primary"><a
+                  href="https://api.whatsapp.com/send?phone=005491166410806?text=Hola! Quiero inscribirme en en Nivel 3 de Armenio Oriental!">Inscribirme
+                </a></button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#cursosCarruselMobile" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#cursosCarruselMobile" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
 
     <h3 class="titular col-12 text-center my-5">Testimoniales Anonimos</h3>
 
     <!--Carrousel de Cards para los testimonials -->
 
-    <div id="testimonialCarrusel" class="carousel slide" data-bs-ride="carousel">
+    <div id="testimonialCarrusel" class="carousel slide d-none d-md-block" data-bs-ride="carousel">
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <div class="d-flex justify-content-around">
+          <div class="d-flex justify-content-around py-2">
             <div class="cardTestim d-flex align-items-center">
               <div class="card-body">
                 <p class="card-text"><strong>Opinión de Nosotros: </strong>El curso es muy bueno. Sirve para
@@ -250,7 +398,7 @@
           </div>
         </div>
         <div class="carousel-item">
-          <div class="d-flex justify-content-around">
+          <div class="d-flex justify-content-around py-2">
             <div class="cardTestim d-flex align-items-center">
               <div class="card-body">
                 <p class="card-text"><strong>Opinión de Nosotros: </strong>Me gustaron mucho las clases de la Oriort
@@ -268,7 +416,7 @@
           </div>
         </div>
         <div class="carousel-item">
-          <div class="d-flex justify-content-around">
+          <div class="d-flex justify-content-around py-2">
             <div class="cardTestim d-flex align-items-center">
               <div class="card-body">
                 <p class="card-text"><strong>Opinión de Nosotros: </strong>Muy paciente y servicial, siempre
@@ -284,6 +432,66 @@
         <span class="visually-hidden">Previous</span>
       </button>
       <button class="carousel-control-next" type="button" data-bs-target="#testimonialCarrusel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <div id="testimonialCarruselMobile" class="carousel slide d-block d-md-none" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item py-2 active">
+          <div class="cardTestim mx-auto d-flex align-items-center">
+            <div class="card-body">
+              <p class="card-text"><strong>Opinión de Nosotros: </strong>El curso es muy bueno. Sirve para
+                enriquecer vocabulario, corregir errores al hablar y practicar la lengua escrita y oral.</p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item py-2">
+          <div class="cardTestim mx-auto d-flex align-items-center">
+            <div class="card-body">
+              <p class="card-text"><strong>Opinión de Nosotros: </strong>Mi experiencia pesonal fue muy buena,
+                surgieron muchos sentimientos, recuerdos y tantas cosas que me movilizaron luego de tanto tiempo. Un
+                placer, una ilusión, un nuevo proyecto de volver a conectarme con mis raíces, mis ancestros, mi
+                familia. Las clases son muyu buenas, me interesa muchísimo, Flora hace todo lo posible para que se
+                comprenda. Gracias Oriort Flora por enseñar nuestro idioma.</p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item py-2">
+          <div class="cardTestim mx-auto d-flex align-items-center">
+            <div class="card-body">
+              <p class="card-text"><strong>Opinión de Nosotros: </strong>Me gustaron mucho las clases de la Oriort
+                Flora. Siempre prepara material nuevo, acorde a las necesidades del grupo y adapta los horarios para
+                que todos podamos participar.</p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item py-2">
+          <div class="cardTestim mx-auto d-flex align-items-center">
+            <div class="card-body">
+              <p class="card-text"><strong>Opinión de Nosotros: </strong>Las clases son muy dinámicas y logran
+                transmitir el conocimiento y la pasión con la que Flora da las clases y que tome como un compromiso
+                casi personal lograr que los alumnos puedan aprender.</p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item py-2">
+          <div class="cardTestim mx-auto d-flex align-items-center">
+            <div class="card-body">
+              <p class="card-text"><strong>Opinión de Nosotros: </strong>Muy paciente y servicial, siempre
+                predispuesta a que todos entiendan. Ofrece formas didácticas a pesar de ser un curso para adultos.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#testimonialCarruselMobile"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#testimonialCarruselMobile"
+        data-bs-slide="next">
         <span class="carousel-control-next-icon" aria-hidden="true"></span>
         <span class="visually-hidden">Next</span>
       </button>
