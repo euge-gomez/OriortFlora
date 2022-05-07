@@ -63,15 +63,15 @@ span.d-none {
 /* Botón de Whatsapp */
 .btnWa {
   background-color: var(--whatsapp-color-figma);
-  position: fixed;
-  bottom: 20px;
+  position: absolute;
+  top: 172px;
   right: 20px;
   border: var(--whatsapp-color-figma) solid 2px;
-  border-radius: 25px;
-  width: 50px;
-  height: 50px;
+  border-radius: 15px;
+  width: 200px;
+  height: 60px;
   text-align: center;
-  font-size: 2rem;
+  font-size: 18px;
   box-shadow: 10px 5px 5px var(--dark-color);
   z-index: 1;
 }
