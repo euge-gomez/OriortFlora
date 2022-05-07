@@ -197,12 +197,17 @@ a:hover{
   box-shadow: 10px 5px 5px var(--dark-color);
   max-width: 300px;
   padding: 5px;
-  background-color: var(--gray-color);
   text-align: center;
+}
+
+.card{
+  background-color: var(--gray-color);
 }
 
 .cardTestim {
   height: 200px;
+  background-color: rgba(255, 120, 23, 0.2);
+  color: var(--dark-color);
 }
 
 .card-subtitle, .card-text {
