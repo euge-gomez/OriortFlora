@@ -196,14 +196,17 @@ a:hover{
   border-radius: 20px;
   box-shadow: 10px 5px 5px var(--dark-color);
   max-width: 300px;
-  height: 18rem;
   padding: 5px;
   background-color: var(--gray-color);
   text-align: center;
 }
 
+.cardTestim {
+  height: 200px;
+}
+
 .card-subtitle, .card-text {
-  font-size: 0.75rem;
+  font-size: 0.65rem;
 }
 
 .btn-primary {
@@ -270,7 +273,7 @@ button {
 .timeline ol {
   font-size: 0;
   width: 100vw;
-  padding: 250px 0;
+  padding: 150px 0;
   transition: all 1s;
 }
 
@@ -301,15 +304,16 @@ button {
   height: 12px;
   transform: translateY(-50%);
   border-radius: 50%;
-  background: var(--gray-color);
+  background: #ff0000;
 }
 
 .timeline ol li div {
   position: absolute;
   left: calc(100% + 7px);
-  width: 280px;
+  max-height: 120px;
+  width: 200px;
   padding: 15px;
-  font-size: 1rem;
+  font-size: 0.70rem;
   white-space: normal;
   color: black;
   background: white;
@@ -320,9 +324,10 @@ button {
   text-align: center;
   justify-content: center;
   align-items: center;
+}
+.burbujaSup{
   border-radius: 25px 25px 25px 0;
 }
-
 .burbujaSub {
   border-radius: 0px 25px 25px 25px;
 }
