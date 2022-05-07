@@ -191,16 +191,7 @@ a:hover{
 /* Cursos */ 
 
 /* Cursos Carrusel */
-.card {
-  border-radius: 20px;
-  box-shadow: 10px 5px 5px var(--dark-color);
-  width: 18rem;
-  height: 30rem;
-  padding: 5px;
-  background-color: var(--gray-color);
-  text-align: center;
-}
-.cardTestim {
+.card, .cardTestim {
   font-size: 0.85rem;
   border-radius: 20px;
   box-shadow: 10px 5px 5px var(--dark-color);
@@ -210,6 +201,11 @@ a:hover{
   background-color: var(--gray-color);
   text-align: center;
 }
+
+.card-subtitle, .card-text {
+  font-size: 0.75rem;
+}
+
 .btn-primary {
   background-color: #000aff;
   border:#000aff 2px solid;
