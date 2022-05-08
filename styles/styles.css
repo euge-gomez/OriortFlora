@@ -226,6 +226,15 @@ a:hover{
 .carousel-control-next-icon {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23343A40' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
 }
+/* Portfolio Galería */
+
+.txtGaleria:hover {
+  background-color: rgba(64, 65, 66, 0.7);
+  border-radius: 20px;
+}
+.carousel-control-next-icon, .carousel-control-prev-icon {
+  color: #DEE2E6;
+}
 
 /* Footer */
 .footer {
