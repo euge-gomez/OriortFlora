@@ -59,7 +59,10 @@ header {
 span.d-none {
   font-size: 16px;
 }
-
+#fixed {
+  position: sticky;
+  top: 20;
+}
 /* Botón de Whatsapp */
 .btnWa {
   background-color: var(--whatsapp-color-figma);
