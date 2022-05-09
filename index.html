@@ -15,12 +15,14 @@
 
 <body>
   <header>
-    <div class="headerUp text-white mx-auto d-flex justify-content-around justify-content-md-between align-items-center py-2">
+    <div
+      class="headerUp text-white mx-auto d-flex justify-content-around justify-content-md-between align-items-center py-2">
       <div class="logoContainer">
         <img src="img/Logo.svg" class="img-fluid border border-2 border-dark rounded-circle" alt="logo">
       </div>
       <div>
-        <h3><span class="d-none d-md-inline">oriort.flora@gmail.com</span> <span class="mailLine">|</span> <a href="https://www.facebook.com/oriort.flora/" target="_blank"><i
+        <h3><span class="d-none d-md-inline">oriort.flora@gmail.com</span> <span class="mailLine">|</span> <a
+            href="https://www.facebook.com/oriort.flora/" target="_blank"><i
               class="fa-brands fa-facebook d-inline-block mx-1"></i></a>
           <a href="https://www.instagram.com/oriort.flora/" target="_blank"> <i
               class="fa-brands fa-instagram d-inline-block mx-1"></i></a>
@@ -31,44 +33,46 @@
         </h3>
       </div>
     </div>
-    <section id="fixed">
-    <div class="bg-dark d-md-flex">
-      <div class="headerDown Navbar mx-auto">
-        <nav class="navbar navbar-expand-lg navbar-dark">
-          <div class="container-fluid">
-              <button id="btnHamburguer" class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
-                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+    <div id="navbar">
+      <div class="bg-dark d-md-flex">
+        <div class="headerDown Navbar mx-auto">
+          <nav class="navbar navbar-expand-lg navbar-dark">
+            <div class="container-fluid">
+              <button id="btnHamburguer" class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
-            <div class="collapse navbar-collapse" id="navbarNavDropdown">
-              <ul class="navbar-nav">
-                <li class="nav-item">
-                  <a class="nav-link" href="./index.html">1.Inicio</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="./pages/Nosotros.html">2.Nosotros</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="./pages/Cursos.html">3.Cursos</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="./pages/Portfolio.html">4.Porfolio</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="./pages/Contacto.html">5.Contacto</a>
-                </li>
-              </ul>
+              <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link" href="./index.html">1.Inicio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./pages/Nosotros.html">2.Nosotros</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./pages/Cursos.html">3.Cursos</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./pages/Portfolio.html">4.Porfolio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./pages/Contacto.html">5.Contacto</a>
+                  </li>
+                </ul>
+              </div>
             </div>
-          </div>
-        </nav>
+          </nav>
+        </div>
       </div>
+      <div id="btnWa" class="btnWa d-none d-md-block">
+        <a target="_blank"
+          href="https://api.whatsapp.com/send?phone=005491166410806&text=Hola! Quiero coordinar mi reunión con Flora!">Contactanos
+          por WhatsApp</a>
+        </div>
     </div>
-  </section>
-    <div class="btnWa d-none d-md-block">
-      <a target="_blank"
-            href="https://api.whatsapp.com/send?phone=005491166410806&text=Hola! Quiero coordinar mi reunión con Flora!">Contactanos por WhatsApp</a>
-    </div>
-  
+
   </header>
   <main class=" container mx-auto my-5">
     <h1 class="text-center"><strong>Aprendé armenio con Oriort Flora.</strong></h1>
@@ -77,7 +81,8 @@
       <h3 class="text-center titular">Flora Akchejerlian</h3>
       <p>Flora nació en Yereván y emigró a la Argentina a sus seis años. Estudió en el Colegio San Gregorio el
         Ilumniador.
-        Luego de egresar, comenzó su carrera profesional. Es Licenciada en Ciencias de la Educación. Trabajó en diferentes colegios e instituciones de la comunidad
+        Luego de egresar, comenzó su carrera profesional. Es Licenciada en Ciencias de la Educación. Trabajó en
+        diferentes colegios e instituciones de la comunidad
         armenia, ocupando los roles de docente, secretaria, coordinadora y directora y brindando asesorías pedagógicas.
       </p>
     </div>
@@ -156,6 +161,7 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
     integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
     crossorigin="anonymous"></script>
+    <script src="./js/sticky.js"></script>
 </body>
 
 </html>

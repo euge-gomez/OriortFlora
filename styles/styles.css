@@ -59,10 +59,6 @@ header {
 span.d-none {
   font-size: 16px;
 }
-#fixed {
-  position: sticky;
-  top: 20;
-}
 /* Botón de Whatsapp */
 .btnWa {
   background-color: var(--whatsapp-color-figma);
@@ -498,4 +494,10 @@ button {
   color: white;
   font-size: 0.75rem;
   background-color: rgba(0, 0, 0, 0.4);
+}
+
+.sticky{
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
