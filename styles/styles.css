@@ -479,3 +479,23 @@ button {
     flex-direction: column;
   }
 }
+
+
+.galleryPortada{
+  background-color: var(--gray-color);
+  height: 200px;
+}
+
+.carrouselGallery {
+  max-width: 100%;
+  max-height: 200px;
+}
+
+.textCarrousel {
+  position: absolute;
+  width: 100%;
+  bottom: 1px;
+  color: white;
+  font-size: 0.75rem;
+  background-color: rgba(0, 0, 0, 0.4);
+}
