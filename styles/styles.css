@@ -479,12 +479,12 @@ button {
 
 .galleryPortada{
   background-color: var(--gray-color);
-  height: 200px;
+  height: 300px;
 }
 
 .carrouselGallery {
-  max-width: 100%;
-  max-height: 200px;
+  width: 100%;
+  max-height: 300px;
 }
 
 .textCarrousel {
