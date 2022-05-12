@@ -20,6 +20,12 @@
   font-style: normal;
   font-weight: bold;
 }
+@font-face {
+  font-family: 'Cera Pro';
+  src: url('./font/CeraProLight.otf') format('truetype');
+  font-style: normal;
+  font-weight: 300;
+}
 
 
 
