@@ -26,21 +26,21 @@ const changeTextoToNosotros = () => {
   mision.classList.remove('nmvTabMColor');
   vision.classList.remove('nmvTabVColor');
   texto.innerHTML = '';
-  texto.innerHTML = '<p>Somos una organización enfocada a la enseñanza de la lengua y la cultura armenia, satisfaciendo las inquietudes de cada persona y respetando el aprendizaje por etapas y niveles. Ofrecemos cursos de armenio regulares, organizados en cuatrimestres, o bimestrales en formatos intensivos. Queremos ser la guía en la búsqueda de tus orígenes, para aprender el idioma de tus antepasados, para comunicarte con tus seres queridos, poder acceder a los escritos que posees y no pudiste acceder hasta ahora.</p>';
+  texto.innerHTML = '<p>Somos una organización enfocada en la enseñanza de la lengua y cultura armenia. Los acompañamos durante todo el proceso de aprendizaje por etapas y niveles. Nuestros cursos de armenio pueden ser regulares, cuatrimestrales o bimestrales en formatos intensivos, según la necesidad del estudiante.</p>';
 }
 const changeTextoToMision = () => {
   nosotros.classList.remove('nmvTabNColor');
   mision.classList.add('nmvTabMColor');
   vision.classList.remove('nmvTabVColor');
   texto.innerHTML = '';
-  texto.innerHTML = '<p>Nuestra misión es transmitir la cultura armenia a través de la lengua armenia. Estamos comprometidos a ser tus aliados y ayudarte a aproximarse paulatinamente a la cultura de tus antepasados. Queremos llegar a satisfacer las necesidades de cada uno. Trabajamos desarrollando contenido personalizado,creativo e innovador. Buscamos que todos los que se acerquen a esta propuesta puedan insertarse en la cultura armenia. Nos esforzamos en brindar el mejor servicio del mercado a un precio accesible. Trabajamos con nuestros estudiantes para identificar y desarrollar todo el potencial en el uso del idioma armenio.</p>'
+  texto.innerHTML = '<p>Nuestra misión es colaborar y ayudar en la búsqueda de tus orígenes para aprender el idioma y la cultura de tus antepasados, acceder a tus escritos y comunicarte con los demás. Así es como podemos transmitir la cultura armenia a través de su idioma. Por eso, nos parece importante elaborar contenidos personalizados, creativos e innovadores y lograr insertarse en la cultura armenia. Cada instancia de aprendizaje, la trabajamos con el estudiante para que identifique y desarrolle todo el potencial con el uso del idioma armenio.</p>'
 }
 const changeTextoToVision = () => {
   nosotros.classList.remove('nmvTabNColor');
   mision.classList.remove('nmvTabMColor');
   vision.classList.add('nmvTabVColor');
   texto.innerHTML = '';
-  texto.innerHTML = '<p>Ofrecer la mejor experiencia al estudiante. Llegar a personas interesadas en la lengua y cultura armenia en distintos puntos del mundo. Facilitar a difundir la lengua y cultura armenia a su entorno. Dar tarifas acordes a las posibilidades locales.</p>'
+  texto.innerHTML = '<p>Ofrecerles la mejor experiencia con el idioma y la cultura armenia. Sin importar la distancia y el lugar, brindarles un espacio de aprendizaje personalizado y herramientas para cada estudiante.</p>'
 }
 
 nosotros.addEventListener('click', changeTextoToNosotros);
