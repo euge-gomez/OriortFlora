@@ -2,6 +2,7 @@
   --dark-color: #343A40;
   --gray-color: #DEE2E6;
   --white-color: #f2f2f2;
+  --purple-color: #8D2CC9;
   --whatsapp-color: #00BB2D;
   --whatsapp-color-figma: #25D366;
 }
@@ -89,6 +90,14 @@ a:hover{
   color: var(--white-color);
 }
 
+.link {
+  color: var(--purple-color);
+}
+
+.link:hover{
+  text-decoration: underline;
+  color: var(--purple-color);
+}
 /* MAIN */
 
 .container {
