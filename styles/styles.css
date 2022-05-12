@@ -316,7 +316,7 @@ button {
   list-style-type: none;
   width: 160px;
   height: 3px;
-  background: var(--dark-color);
+  background: var(--purple-color);
 }
 
 .timeline ol li:last-child {
@@ -337,7 +337,7 @@ button {
   height: 12px;
   transform: translateY(-50%);
   border-radius: 50%;
-  background: #ff0000;
+  background: #000;
 }
 
 .timeline ol li div {
