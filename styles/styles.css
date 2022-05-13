@@ -492,9 +492,11 @@ button {
 }
 
 
-.galleryPortada{
-  background-color: var(--gray-color);
-  height: 300px;
+/*Porfolio Galería*/
+
+.Portada {
+  position: relative;
+  top: -150px;
 }
 
 .carrouselGallery {
