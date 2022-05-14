@@ -26,21 +26,21 @@ const changeTextoToNosotros = () => {
   mision.classList.remove('nmvTabMColor');
   vision.classList.remove('nmvTabVColor');
   texto.innerHTML = '';
-  texto.innerHTML = '<p>Somos una organización enfocada en la <b>enseñanza de la lengua y cultura armenia</b> . Los acompañamos durante todo el proceso de <b>aprendizaje por etapas y niveles</b>.</p><p></p>Nuestros cursos de armenio pueden ser <b>regulares, cuatrimestrales o bimestrales en formatos intensivos</b>, según la necesidad del estudiante.</p>';
+  texto.innerHTML = '<p>Somos una organización enfocada en la <b>enseñanza de la lengua y cultura armenia</b>. Los acompañamos durante todo el proceso de <b>aprendizaje por etapas y niveles</b>.</p><p>Nuestros cursos de armenio pueden ser <b>regulares, cuatrimestrales o bimestrales en formatos intensivos</b>, según la necesidad del estudiante.</p>';
 }
 const changeTextoToMision = () => {
   nosotros.classList.remove('nmvTabNColor');
   mision.classList.add('nmvTabMColor');
   vision.classList.remove('nmvTabVColor');
   texto.innerHTML = '';
-  texto.innerHTML = '<p>Nuestra misión es colaborar y ayudar en la <b>búsqueda de tus orígenes</b> para aprender el idioma y la <b>cultura de tus antepasados</b>, acceder a tus <b>escritos</b> y <b>comunicarte</b> con los demás.</p><p>Así es como podemos <b>transmitir la cultura armenia</b> a través de su idioma. Por eso, nos parece importante <b>elaborar contenidos personalizados, creativos e innovadores</b> y lograr <b>insertarse en la cultura armenia</b>.</p><p>Cada instancia de aprendizaje, la trabajamos con el estudiante para que <b>identifique y desarrolle todo el potencial</b> con el uso del idioma armenio.</p>'
+  texto.innerHTML = '<p>Nuestra misión es colaborar y ayudarte en la <b>búsqueda de tus orígenes</b> a través del aprendizaje del idioma y la <b>cultura de tus antepasados, acceder a escritos y comunicarte</b> con tus seres quieridos.</p><p>Lo hacemos elaborando <b>contenidos creativos, innovadores y personalizados</b>.</p><p>Trabajamos con el estudiante para que identifique y desarrolle todo sus conocimientos de la <b>lengua y la cultura</b> y logre insertarse en la <b>comunidad armenia</b>.</p>'
 }
 const changeTextoToVision = () => {
   nosotros.classList.remove('nmvTabNColor');
   mision.classList.remove('nmvTabMColor');
   vision.classList.add('nmvTabVColor');
   texto.innerHTML = '';
-  texto.innerHTML = '<p>Ofrecerles la mejor experiencia con el idioma y la cultura armenia. <b>Sin importar la distancia</b> y el lugar, brindarles un espacio de aprendizaje personalizado y herramientas para cada estudiante.</p>'
+  texto.innerHTML = '<p>Familiarizarse con la lengua y apropiarse de la cultura armenia. <b>Sin importar la distancia</b> y el lugar, brindarles un espacio de aprendizaje personalizado y proveer a cada estudiante herramientas para autogestionar su propio aprendizaje.</p>'
 }
 
 nosotros.addEventListener('click', changeTextoToNosotros);
