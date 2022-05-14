@@ -166,6 +166,26 @@ a:hover{
   max-width: 800px;
 }
 
+/* Curosos */
+
+.cursoArmenioOccidental {
+  display: inline-block;
+  padding: 5px;
+  background-color: #ff7817;
+  color: white;
+  border-radius: 8px;
+}
+.cursoArmenioOriental {
+  display: inline-block;
+  padding: 5px;
+  background-color: #ff0000;
+  color: white;
+  border-radius: 8px;
+}
+
+
+
+
 /* Formulario */
 
 .formularioContacto {
