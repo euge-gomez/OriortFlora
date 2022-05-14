@@ -91,12 +91,12 @@ a:hover{
 }
 
 .link {
-  color: var(--purple-color);
+  color: #ff7817;
 }
 
 .link:hover{
   text-decoration: underline;
-  color: var(--purple-color);
+  color: #ff7817;
 }
 /* MAIN */
 
@@ -509,7 +509,7 @@ button {
   width: 100%;
   bottom: 1px;
   color: white;
-  font-size: 0.75rem;
+  font-size: 0.95rem;
   background-color: rgba(0, 0, 0, 0.4);
 }
 
