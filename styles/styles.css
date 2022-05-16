@@ -183,6 +183,7 @@ a:hover{
   border-radius: 8px;
 }
 /* Cursos Carrusel */
+
 .card {
   font-size: 0.85rem;
   border-radius: 20px;
@@ -195,6 +196,10 @@ a:hover{
 
 .card-subtitle, .card-text {
   font-size: 0.75rem;
+}
+
+#cursosCarruselMobile .carousel-item{
+  max-width: 95%;
 }
 
 .btn-primary {
