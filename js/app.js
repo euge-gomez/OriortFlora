@@ -26,7 +26,7 @@ const changeTextoToNosotros = () => {
   mision.classList.remove('nmvTabMColor');
   vision.classList.remove('nmvTabVColor');
   texto.innerHTML = '';
-  texto.innerHTML = '<p>Somos una organización enfocada en la <b>enseñanza de la lengua y cultura armenia</b>. Los acompañamos durante todo el proceso de <b>aprendizaje por etapas y niveles</b>.</p><p>Nuestros cursos de armenio pueden ser <b>regulares, cuatrimestrales o bimestrales en formatos intensivos</b>, según la necesidad del estudiante.</p>';
+  texto.innerHTML = '<p>Somos una organización enfocada en la <b>enseñanza de la lengua y la cultura armenia</b>. Los acompañamos durante todo el proceso de <b>aprendizaje por etapas y niveles</b>.</p><p>Nuestros cursos de armenio pueden ser <b>regulares, cuatrimestrales o bimestrales en formatos intensivos</b>, según la necesidad del estudiante.</p>';
 }
 const changeTextoToMision = () => {
   nosotros.classList.remove('nmvTabNColor');
