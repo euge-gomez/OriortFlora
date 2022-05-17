@@ -184,7 +184,7 @@ a:hover{
 }
 /* Cursos Carrusel */
 
-.card {
+.cardCursos {
   font-size: 0.85rem;
   border-radius: 20px;
   box-shadow: 10px 5px 5px var(--dark-color);
@@ -229,7 +229,7 @@ a:hover{
 }
 /* Valoraciones */
 .imgValoraciones {
-height: 50vh;
+  max-width: 300px;
 border-radius: 5px;
 box-shadow: 10px 10px 5px var(--dark-color);
 
