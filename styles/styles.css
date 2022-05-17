@@ -478,6 +478,7 @@ button {
     width: 94%;
     height: auto !important;
     margin: 0 auto 25px;
+    padding: 2px;
   }
 
   .timeline ol li div {
