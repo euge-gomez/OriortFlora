@@ -184,7 +184,7 @@ a:hover{
 }
 /* Cursos Carrusel */
 
-.card {
+.cardCursos {
   font-size: 0.85rem;
   border-radius: 20px;
   box-shadow: 10px 5px 5px var(--dark-color);
