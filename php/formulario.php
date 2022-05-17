@@ -23,5 +23,5 @@ $para = "oriort.flora@gmail.com";
 $asunto = "Email enviado desde el sitio web Oriort.Flora"
 
 
-mail($para, $asunto, utf8_decode($email), $header);
+mail($para, $asunto, utf8_decode($email));
 ?>
