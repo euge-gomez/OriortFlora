@@ -221,6 +221,12 @@ a:hover{
 .carousel-control-next-icon {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23343A40' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
 }
+
+.card-text {
+  list-style-position: inside;
+  margin: 0;
+  padding: 0;
+}
 /* Valoraciones */
 .imgValoraciones {
 height: 50vh;
@@ -274,22 +280,7 @@ box-shadow: 10px 10px 5px var(--dark-color);
   color: #DEE2E6;
 }
 
-/* Footer */
-.footer {
-  background-color: #DEE2E6;
-}
-
-.pictureContainer {
-  max-width: 75px;
-}
-
-.rrssFooter {
-  list-style: none;
-  font-size: 1.75rem;
-}
-
-
-/* Css de la timeline */
+/* Css de la timeline *//* TIMELINE */
 
 button {
   background: transparent;
@@ -297,8 +288,6 @@ button {
   cursor: pointer;
   outline: none;
 }
-
- /* .section SECTION */
 
 .section {
   background: var(--gray-color);
@@ -312,9 +301,6 @@ button {
 .section h2 {
   font-size: 1.3rem;
 }
-
-
-/* TIMELINE */
 
 .timeline {
   background-color: rgba(222, 226, 230, .8);
@@ -428,7 +414,7 @@ button {
 
 .timeline .arrows {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   margin-bottom: 20px;
   
 }
@@ -444,6 +430,20 @@ button {
 .timeline .arrows img {
   width: 45px;
   height: 45px;
+}
+
+/* Footer */
+.footer {
+  background-color: #DEE2E6;
+}
+
+.pictureContainer {
+  max-width: 75px;
+}
+
+.rrssFooter {
+  list-style: none;
+  font-size: 1.75rem;
 }
 
 
