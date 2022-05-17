@@ -33,7 +33,7 @@ const changeTextoToMision = () => {
   mision.classList.add('nmvTabMColor');
   vision.classList.remove('nmvTabVColor');
   texto.innerHTML = '';
-  texto.innerHTML = '<p>Nuestra misión es colaborar y ayudarte en la <b>búsqueda de tus orígenes</b> a través del aprendizaje del idioma y la <b>cultura de tus antepasados, acceder a escritos y comunicarte</b> con tus seres quieridos.</p><p>Lo hacemos elaborando <b>contenidos creativos, innovadores y personalizados</b>.</p><p>Trabajamos con el estudiante para que identifique y desarrolle todo sus conocimientos de la <b>lengua y la cultura</b> y logre insertarse en la <b>comunidad armenia</b>.</p>'
+  texto.innerHTML = '<p>Nuestra misión es ayudarte en la <b>búsqueda de tus orígenes</b>, a través del aprendizaje de la lengua y la <b>cultura de tus antepasados, acceder a escritos y comunicarte</b> con tus seres queridos.</p><p>Lo hacemos elaborando <b>contenidos creativos, innovadores y personalizados</b>.</p><p>Trabajamos con el estudiante para que identifique y desarrolle todos sus conocimientos de la <b>lengua y la cultura</b>, y logre insertarse en la <b>comunidad armenia</b>.</p>'
 }
 const changeTextoToVision = () => {
   nosotros.classList.remove('nmvTabNColor');
