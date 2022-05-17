@@ -40,7 +40,7 @@ const changeTextoToVision = () => {
   mision.classList.remove('nmvTabMColor');
   vision.classList.add('nmvTabVColor');
   texto.innerHTML = '';
-  texto.innerHTML = '<p>Familiarizarse con la lengua y apropiarse de la cultura armenia. <b>Sin importar la distancia</b> y el lugar, brindarles un espacio de aprendizaje personalizado y proveer a cada estudiante herramientas para autogestionar su propio aprendizaje.</p>'
+  texto.innerHTML = '<p>Familiarizarse con la lengua y apropiarse de la cultura armenia. <b>Sin importar la distancia</b> y el lugar, brindarles un espacio de <b>aprendizaje personalizado</b> y proveer a cada estudiante herramientas para autogestionar su propio aprendizaje.</p>'
 }
 
 nosotros.addEventListener('click', changeTextoToNosotros);
