@@ -8,16 +8,16 @@ $cursoType = $_POST['cursoType'];
 $alfabeto = $_POST['alfabeto'];
 $msg = $_POST['msg'];
 
-$header = ('Location:../contacto.html')
+$header = header ("Location: ../index.html");
 
 
-$email = "Nombre: " . $name ",\r\n";
-$email .= "Nacionalidad: " . $country ",\r\n";
-$email .= "Email: " . $email ",\r\n";
-$email .= "Teléfono: " . $phone ",\r\n";
-$email .= "Tipo de curso: " . $cursoType ",\r\n";
-$email .= "Reconoce el alfabeto: " . $alfabeto ",\r\n";
-$email .= "Mensaje: " . $msg ",\r\n";
+$email = "Nombre: " . $name . ",\r\n";
+$email .= "Nacionalidad: " . $country . ",\r\n";
+$email .= "Email: " . $diremail . ",\r\n";
+$email .= "Teléfono: " . $phone . ",\r\n";
+$email .= "Tipo de curso: " . $cursoType . ",\r\n";
+$email .= "Reconoce el alfabeto: " . $alfabeto . ",\r\n";
+$email .= "Mensaje: " . $msg . ",\r\n";
 
 $para = "oriort.flora@gmail.com";
 $asunto = "Email enviado desde el sitio web Oriort.Flora"
