@@ -544,3 +544,19 @@ button {
   top: 0;
   width: 100%;
 }
+
+/* boton de regreso */
+
+.btnBack {
+  opacity: 0.3;
+  background-color: var(--dark-color);
+  border-radius: 100%;
+  padding-left: 10px;
+  padding-right: 10px;
+  position: absolute;
+  top: 580px;
+  right: 20px;
+  text-align: center;
+  font-size: 2.5rem;
+  z-index: 1;
+}
