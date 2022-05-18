@@ -478,7 +478,7 @@ button {
     width: 94%;
     height: auto !important;
     margin: 0 auto 25px;
-    padding: 2px;
+    padding: 20px 10px 0 10px;
   }
 
   .timeline ol li div {
@@ -504,6 +504,11 @@ button {
   .timeline ol li:not(:last-child)::after,
   .timeline .arrows {
     display: none;
+  }
+
+  .burbujaSup,
+  .burbujaSub{
+    border-radius: 25px;
   }
   /*Footer*/
   .rrssFooter {
