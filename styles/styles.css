@@ -194,6 +194,10 @@ a:hover{
   background-color: var(--gray-color);
 }
 
+.cardTestim{
+  max-width: 500px;
+}
+
 .card-subtitle, .card-text {
   font-size: 0.75rem;
 }
@@ -229,7 +233,7 @@ a:hover{
 }
 /* Valoraciones */
 .imgValoraciones {
-  max-width: 250px;
+  max-width: 350px;
   border-radius: 5px;
   box-shadow: 10px 10px 5px var(--dark-color);
 
@@ -509,6 +513,10 @@ button {
   .burbujaSup,
   .burbujaSub{
     border-radius: 25px;
+  }
+
+  .imgValoraciones{
+    max-width: 200px;
   }
   /*Footer*/
   .rrssFooter {
